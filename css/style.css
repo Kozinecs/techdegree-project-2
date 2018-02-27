@@ -1,0 +1,130 @@
+/* =================================
+  Base Element Styles
+==================================== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #e0e0eb;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  border-top: solid 2px #666699;
+}
+
+.main-header {
+  margin-bottom: 30px;
+}
+.menu,
+.name {
+  margin-top: 15px;
+}
+
+.menu a,
+.footer-nav a {
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  padding: 10px 10px;
+  color: black;
+}
+
+.name a {
+  display: block;
+  color: black;
+}
+
+.name a:hover,
+.menu a:hover {
+  color: black;
+}
+
+.portfolio-pic {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer-nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .portfolio-block {
+    width: 45%;
+    margin-left: 5px;
+    float: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .menu {
+    float: right;
+  }
+
+  .name,
+  .menu li {
+    float: left;
+  }
+
+  .main-nav {
+    float: right;
+  }
+
+  .portfolio-block {
+    width: calc(33% - 15px);
+    float: left;
+    padding-left: 10px;
+  }
+
+  .portfolio-block p {
+    padding: 0px 5px 10px 5px;
+  }
+  .about {
+    text-align: left;
+  }
+  .student-picture {
+    display: block;
+    width: 300px;
+    float: right;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .back {
+    display: none;
+  }
+
+  .footer-nav {
+    display: block;
+    float: right;
+    margin-top: 15px;
+  }
+
+  .footer-nav ul li {
+    float: left;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
