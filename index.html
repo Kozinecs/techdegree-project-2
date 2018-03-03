@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
   <title>Students Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
@@ -28,7 +29,7 @@
     </div>
 
     <!-- Portfolio section -->
-    <div class="clearfix">
+    <div class="wrapper clearfix">
       <h2 id="portfolio"> Portfolio </h2>
       <div class="portfolio-block">
         <img class="portfolio-pic" src="images/portfolio-1.png" alt="Marketing Page image"/>
@@ -72,21 +73,21 @@
       <h2> Contact </h2>
       <p> If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
       <ul>
-        <li>Phone +1 (111) 555-1234</li>
-        <li>Email email@yoursite.com</li>
+        <li>Phone <a href="tel:+11115551234">  +1 (111) 555-1234 </a></li>
+        <li>Email <a href="email@yoursite.com">email@yoursite.com</a></li>
       </ul>
     </div>
   </div>
   <footer class="container clearfix">
-    <h2 class="name">Student Name</h2>
-    <a href="#" class="back">Back to top</a>
-    <nav class="footer-nav">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="portfolio">Portfolio</a></li>
-        <li><a href="contact">Contact</a></li>
-      </ul>
-    </nav>
+      <h2 class="footer-name"><a href="#">Student Name</a></h2>
+      <h2 class="back"><a href="#">Back to top</a></h2>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="portfolio">Portfolio</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </nav>
   </footer>
 
 </body>
