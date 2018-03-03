@@ -9,7 +9,8 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   margin: 0 auto;
   text-align: center;
-  background-color: #e0e0eb;
+  background-color: #ADD9F4;
+  color: #2E4057;
 }
 
 a {
@@ -18,9 +19,19 @@ a {
 
 footer {
   border-top: solid 2px #666699;
+  background-color: #984447;
 }
 
-.main-header {
+p {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+.main-header .container {
+  background-color: #984447;
   margin-bottom: 30px;
 }
 .menu,
@@ -84,6 +95,10 @@ footer {
     float: left;
   }
 
+  .menu li {
+    border-right: solid 2px #D7D9CE;
+  }
+
   .main-nav {
     float: right;
   }
@@ -96,6 +111,7 @@ footer {
 
   .portfolio-block p {
     padding: 0px 5px 10px 5px;
+    height: 90px;
   }
   .about {
     text-align: left;
