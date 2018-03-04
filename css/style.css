@@ -69,14 +69,26 @@ img.student-picture {
   color: black;
 }
 
-.name a:hover,
-.menu a:hover {
+.name a:hover {
   color: black;
+}
+
+.menu a:hover,
+.back a:hover {
+  text-shadow: 2px 2px 15px #ffff00;
+  color: white;
 }
 
 .portfolio-pic {
   width: 100%;
   margin-bottom: 20px;
+}
+.photos {
+  padding: 20px 0px;
+  background-color: #984447;
+}
+.photos-pic {
+  width: 100%;
 }
 
 .contact {
@@ -136,6 +148,7 @@ img.student-picture {
     float: right;
     width: 300px;
   }
+
   .back {
     display: none;
   }
@@ -143,6 +156,21 @@ img.student-picture {
     width: calc(51% - 15px);
     padding-left: 10px;
     float: left;
+  }
+
+  .photos-pic {
+    width: calc(33.8% - 10px);
+    float: left;
+    padding-left: 10px;
+  }
+
+  .photos {
+    color: black;
+  }
+
+  .footer-nav a:hover {
+    text-shadow: 2px 2px 15px #ffff00;
+    color: white;
   }
 
   .footer-name {
@@ -187,10 +215,15 @@ img.student-picture {
     float: left;
   }
 
-  .portfolio-block {
-    width: calc(33% - 15px);
+  .portfolio-block,
+  .photos-pic {
+    width: calc(33.8% - 10px);
     float: left;
     padding-left: 10px;
+  }
+
+  .photos {
+    color: black;
   }
 
   .portfolio-block p {
@@ -217,6 +250,12 @@ img.student-picture {
   .back {
     display: none;
   }
+
+  .footer-nav a:hover {
+    text-shadow: 2px 2px 15px #ffff00;
+    color: white;
+  }
+
   .footer-name {
     display: block;
     padding: 0 0 0 20px;
